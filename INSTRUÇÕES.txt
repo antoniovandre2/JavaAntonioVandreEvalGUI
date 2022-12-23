@@ -3,13 +3,6 @@ Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
 Frontend para a calculadora JavaAntonioVandreEval, versão 23-12-2022.
 _____
 
-Dependências:
-
-Java Runtime Environment.
-
-Python.
-_____
-
 Instruções de instalação:
 
 Windows:
