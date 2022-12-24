@@ -4,7 +4,7 @@
 
 # Arquivo Python para "AntonioVandreEval", versão de distribuição.
 
-# Última atualização: 23-12-2022.
+# Última atualização: 24-12-2022.
 
 import tkinter as tk
 
@@ -33,9 +33,9 @@ except:
 
 splash = Tk()
 splash.title("Ave à deusa Matemática...")
-splash.geometry("600x190+" + str(int(user32.GetSystemMetrics(0) / 2 - 300)) + "+" + str(int(user32.GetSystemMetrics(1) / 2 -95)))
+splash.geometry("400x400+" + str(int(user32.GetSystemMetrics(0) / 2 - 200)) + "+" + str(int(user32.GetSystemMetrics(1) / 2 - 200)))
 splash.after(3000, splash.destroy)
-bg = PhotoImage(file = "AntonioVandreEvalGUI_splash.png")
+bg = PhotoImage(file = "JavaAntonioVandreEvalGUI - Logo - 400p.png")
 lab = Label(splash, image = bg)
 lab.pack()
 
@@ -47,7 +47,7 @@ window.geometry('410x150')
 
 window.resizable (False, False)
 
-iconimg = PhotoImage(file="Mathematical Ramblings logo 100p.png")
+iconimg = PhotoImage(file="Mathematical Ramblings - Icon - 100p.png")
 
 window.iconphoto(False, iconimg)
 
@@ -57,7 +57,7 @@ bglabel = Label (window, image=bgimage)
 
 bglabel.place (x=0, y=0, relwidth=1, relheight=1)
 
-window.title ("JavaAntonioVandreEvalGUIW 23-12-2022")
+window.title ("JavaAntonioVandreEvalGUIW 24-12-2022")
 
 lbl_entre = Label (window, text="Expressão:")
 

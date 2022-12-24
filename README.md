@@ -1,6 +1,6 @@
 Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
 
-Frontend para a calculadora JavaAntonioVandreEval, versão 23-12-2022.
+Frontend para a calculadora JavaAntonioVandreEval, versão 24-12-2022.
 _____
 
 Dependências:
@@ -14,7 +14,7 @@ Instruções de instalação:
 
 Windows:
 
-1. Instale o Java runtime e o Python.
+1. Instale o Java Runtime Environment e o Python.
 
 2. Edite o diretório de instalação customizável em "JavaAntonioVandreEvalGUIW.pyw".
 
