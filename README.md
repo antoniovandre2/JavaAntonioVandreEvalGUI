@@ -1,3 +1,5 @@
+![JavaAntonioVandreEvalGUI - Logo](https://github.com/antoniovandre2/JavaAntonioVandreEvalGUI/blob/main/JavaAntonioVandreEvalGUI%20-%20Logo%20-%20400p.png?raw=true = 250x)
+
 Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
 
 Frontend para a calculadora JavaAntonioVandreEval, versão 24-12-2022.
