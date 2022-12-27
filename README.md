@@ -1,4 +1,4 @@
-![JavaAntonioVandreEvalGUI - Logo](https://github.com/antoniovandre2/JavaAntonioVandreEvalGUI/blob/main/JavaAntonioVandreEvalGUI%20-%20Logo%20-%20400p.png?raw=true = 250x)
+<img src="https://github.com/antoniovandre2/JavaAntonioVandreEvalGUI/blob/main/JavaAntonioVandreEvalGUI%20-%20Logo%20-%20400p.png?raw=true" width="250"/>
 
 Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
 
