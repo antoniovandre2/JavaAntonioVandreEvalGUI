@@ -1,0 +1,7 @@
+# Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
+
+# Hash de atualização disponível para o software JavaAntonioVandreEval, calculadora de expressões matemáticas.
+
+# Consiste em um arquivo de texto, com comentários iniciando por tralha "#", contendo o número da última versão disponível, friso bem: formato numérico.
+
+29122022
