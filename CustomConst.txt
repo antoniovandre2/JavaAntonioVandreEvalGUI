@@ -1,0 +1,13 @@
+# Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
+
+# Arquivo de constantes personalizadas para o software JavaAntonioVandreEval, calculadora de expressões matemáticas.
+
+# Consiste em um arquivo de linhas, dois itens em uma linha separados por vírgula ","; a primeira parte a referência à constante, e a segunda o valor.
+
+# _____
+
+# Para acessar a constatante na calculadora, ponha dois pontos ".", um no início e o outro no final da referência. Exemplo:
+
+# teste, 2
+
+# Na calculadora, entrar com ".teste.", o valor será "2".
