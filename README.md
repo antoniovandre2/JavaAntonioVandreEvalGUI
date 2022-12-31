@@ -2,7 +2,7 @@
 
 Projeto Mathematical Ramblings (<a href="https:\\mathematicalramblings.blogspot.com" target="_blank">mathematicalramblings.blogspot.com</a>).
 
-Frontend para a calculadora JavaAntonioVandreEval, versão 24-12-2022. Backend versão 30-12-2022.
+Frontend para a calculadora JavaAntonioVandreEval, versão 31-12-2022. Backend versão 30-12-2022.
 _____
 
 Dependências:

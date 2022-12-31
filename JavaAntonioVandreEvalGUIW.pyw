@@ -1,10 +1,10 @@
 # Proprietário: Antonio Vandré Pedrosa Furtunato Gomes (bit.ly/antoniovandre_legadoontologico).
 
-# Projeto Mathematical Ramblings (bit.ly/mathematicalramblings_github).
+# Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
 
 # Arquivo Python para "AntonioVandreEval", versão de distribuição.
 
-# Última atualização: 24-12-2022.
+# Última atualização: 31-12-2022.
 
 import tkinter as tk
 
@@ -18,9 +18,9 @@ import subprocess
 
 import ctypes
 
-# Diretório de instalação customizável.
+# DIRETÓRIO DE INSTALAÇÃO CUSTOMIZÁVEL.
 
-os.chdir ("C:\JavaAntonioVandreEvalGUIW")
+os.chdir ("C:\JavaAntonioVandreEvalGUI")
 
 user32 = ctypes.windll.user32
 
@@ -55,41 +55,42 @@ bgimage = PhotoImage (file="antoniovandre_eval_gui_bgimage.png")
 
 bglabel = Label (window, image=bgimage)
 
-bglabel.place (x=0, y=0, relwidth=1, relheight=1)
+bglabel.place (x=0, y=0)
 
-window.title ("JavaAntonioVandreEvalGUIW 24-12-2022")
+window.title ("JavaAntonioVandreEvalGUIW 31-12-2022")
 
 lbl_entre = Label (window, text="Expressão:")
 
-lbl_entre.place (anchor='w', rely=.1)
+lbl_entre.place (x=5, y=5)
 
-txt = Entry (window, width=67)
+txt = Entry (window, width=66)
 
-txt.place (anchor='w', rely=.3)
+txt.place (x=5, y=35)
 
 lbl_resultado = Label (window, text="Resultado:")
 
-lbl_resultado.place (anchor='w', rely=.7)
+lbl_resultado.place (x=5, y=98)
 
 lbl_saida = Label (window, text="Entre com a expressão e clique em calcular.")
 
-lbl_saida.place (anchor='w', rely=.9)
+lbl_saida.place (x=5, y=123)
+
+processo_return = subprocess.check_output(['java', '-jar', 'JavaAntonioVandreEval.jar', "version"], stderr=subprocess.DEVNULL)
+
+processo_return_s = str(processo_return, 'ISO-8859-1')
+
+lbl_backend = Label (window, text="Backend: " + processo_return_s.rstrip("\n"))
+
+lbl_backend.place (x=270, y=5)
 
 def clicked ():
 
-	"""
-	os.system('java -jar JavaAntonioVandreEval.jar ' + txt.get().replace("^", "^^") + ' > avegt')
+	processo_return = subprocess.check_output(['java', '-jar', 'JavaAntonioVandreEval.jar', "version"], stderr=subprocess.DEVNULL)
 
-	with open('avegt') as f:
-		lines = f.readlines()
+	processo_return_s = str(processo_return, 'ISO-8859-1')
 
-	processo_return = lines[0]
+	lbl_backend.configure (text="Backend: " + processo_return_s.rstrip("\n"))
 
-	lbl_saida.configure (text=processo_return.rstrip("\n"))
-
-	os.system('del avegt')
-
-	"""
 	processo_return = subprocess.check_output(['java', '-jar', 'JavaAntonioVandreEval.jar', txt.get()], stderr=subprocess.DEVNULL)
 
 	processo_return_s = str(processo_return, 'ISO-8859-1')
@@ -103,6 +104,12 @@ def clicked ():
 		lbl_saida.configure (text=processo_return_s.rstrip("\n"))
 
 def clicked2 ():
+
+	processo_return = subprocess.check_output(['java', '-jar', 'JavaAntonioVandreEval.jar', "version"], stderr=subprocess.DEVNULL)
+
+	processo_return_s = str(processo_return, 'ISO-8859-1')
+
+	lbl_backend.configure (text="Backend: " + processo_return_s.rstrip("\n"))
 
 	stringajuda = subprocess.check_output(['java', '-jar', 'JavaAntonioVandreEval.jar', 'help'], stderr=subprocess.DEVNULL)
 
