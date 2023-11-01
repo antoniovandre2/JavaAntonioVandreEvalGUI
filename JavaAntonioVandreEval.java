@@ -20,7 +20,7 @@ public class JavaAntonioVandreEval
     {
     // Início definições de Antonio Vandré Pedrosa Furtunato Gomes (bit.ly/antoniovandrelegado_ontologico).
 
-    static String Version = "07-04-2023";
+    static String Version = "01-11-2023";
 
     static long VersionN = Integer.valueOf(JavaAntonioVandreEval.Version.replace("-", ""));
 
