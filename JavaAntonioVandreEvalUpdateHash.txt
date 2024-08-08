@@ -4,4 +4,4 @@
 
 # Consiste em um arquivo de texto, com comentários iniciando por tralha "#", contendo o número da última versão disponível, friso bem: formato numérico.
 
-01112023
+08082024

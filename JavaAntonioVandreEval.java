@@ -6,7 +6,7 @@
 
 // Licença de uso: Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA).
 
-// Última atualização: 01-11-2023.
+// Última atualização: 08-08-2024.
 
 import AntonioVandre.*;
 
@@ -20,7 +20,7 @@ public class JavaAntonioVandreEval
     {
     // Início definições de Antonio Vandré Pedrosa Furtunato Gomes (bit.ly/antoniovandrelegado_ontologico).
 
-    static String Version = "01-11-2023";
+    static String Version = "08-08-2024";
 
     static long VersionN = Integer.valueOf(JavaAntonioVandreEval.Version.replace("-", ""));
 
