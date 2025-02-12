@@ -1,24 +1,24 @@
 <img src="https://github.com/antoniovandre2/JavaAntonioVandreEvalGUI/blob/main/JavaAntonioVandreEvalGUI%20-%20Logo%20-%20400p.png?raw=true" width="250"/>
 
 Projeto Mathematical Ramblings (<a href="https:\\mathematicalramblings.blogspot.com" target="_blank">mathematicalramblings.blogspot.com</a>).
-
-Frontend para a calculadora JavaAntonioVandreEval, versão 31-12-2022. Backend versão 02-01-2023.
 _____
 
 Dependências:
 
 Java Runtime Environment.
 
-Python.
+JavaAntonioVandreEval.
+
+Python 3 com Tkinter.
 _____
 
 Instruções de instalação:
 
 Windows:
 
-1. Instale o Java Runtime Environment e o Python.
+1. Instale o Java Runtime Environment, o Python 3 e o Tkinter.
 
-2. Edite o diretório de instalação customizável em "JavaAntonioVandreEvalGUIW.pyw".
+2. Edite o diretório de instalação customizável em "JavaAntonioVandreEvalGUI.pyw".
 
 3. Execute o "JavaAntonioVandreEvalGUIW.pyw".
 _____
