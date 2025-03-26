@@ -1,6 +1,6 @@
 <img src="https://github.com/antoniovandre2/JavaAntonioVandreEvalGUI/blob/main/JavaAntonioVandreEvalGUI%20-%20Logo%20-%20400p.png?raw=true" width="250"/>
 
-Projeto Mathematical Ramblings (<a href="https:\\mathematicalramblings.blogspot.com" target="_blank">mathematicalramblings.blogspot.com</a>).
+Projeto Mathematical Ramblings.
 _____
 
 Dependências:
