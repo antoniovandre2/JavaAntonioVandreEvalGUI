@@ -1,4 +1,4 @@
-# Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
+# Projeto Mathematical Ramblings.
 
 # Arquivo de constantes personalizadas para o software JavaAntonioVandreEval, calculadora de expressões matemáticas.
 

@@ -1,6 +1,6 @@
-# Proprietário: Antonio Vandré Pedrosa Furtunato Gomes (bit.ly/antoniovandre_legadoontologico).
+# Proprietário: Antonio Vandré Pedrosa Furtunato Gomes.
 
-# Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
+# Projeto Mathematical Ramblings.
 
 # Arquivo Python para "AntonioVandreEval", versão de distribuição.
 
